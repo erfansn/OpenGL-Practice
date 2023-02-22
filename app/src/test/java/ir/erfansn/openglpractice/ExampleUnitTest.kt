@@ -1,4 +1,4 @@
-package ir.erfansn.opengl
+package ir.erfansn.openglpractice
 
 import org.junit.Test
 

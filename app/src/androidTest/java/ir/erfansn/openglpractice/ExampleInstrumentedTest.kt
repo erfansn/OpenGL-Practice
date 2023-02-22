@@ -1,4 +1,4 @@
-package ir.erfansn.opengl
+package ir.erfansn.openglpractice
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
