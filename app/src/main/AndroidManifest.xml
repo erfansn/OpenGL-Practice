@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Tell the Market this app requires OpenGL ES 2.0.
+     however today all android devices support version 2.0 -->
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+
+    <!-- Tell the Market this app requires these compression formats -->
+    <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
+    <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
